@@ -1,4 +1,7 @@
-// Promlem One: kilometerToMeter
+// https://github.com/azimjahid/assignment-three
+
+
+// Problem One: kilometerToMeter
 // Problem one start
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
@@ -32,7 +35,7 @@ function hotelCost(day) {
         var remainingDays = day - 10;
         var secondTenDays = remainingDays * 80;
         cost = firstTenDays + secondTenDays;
-        
+
     } else {
         var firstTenDays = 10 * 100;
         var secondTenDays = 10 * 80;
